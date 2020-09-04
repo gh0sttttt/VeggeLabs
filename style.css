@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+  background: #222;
+  color: #fff;
+}
+
+#main-nav {
+   background-color: #111;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.btn-outline-light:hover {
+  background-color: #f5fff4;
+}
+
+
+
+#home-section {
+  background: url('https://source.unsplash.com/collection/190727/1600x900');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.88;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #64B058;
+}
+
+/* Explore Section */
+
+#explore-section .fas,
+#share-section .fas {
+  
+  color: #222;
+  
+}
+
+/* Footer Section */
+
+#main-footer {
+  background-color: #222;
+}
